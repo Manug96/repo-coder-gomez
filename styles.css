@@ -1,0 +1,69 @@
+header {
+
+    padding: 50px;
+    background-color: blue;
+    text-align: center;
+}
+
+nav {
+
+
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+}
+
+nav a {
+
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+
+    flex: 75%;
+    background-color: yellowgreen;
+    padding: 75px;
+
+}
+
+section {
+
+    flex: 25%;
+    background-color: yellow;
+    padding: 75px;
+    text-align: center;
+
+
+}
+
+footer {
+
+    padding: 20px;
+    text-align: center;
+    background-color: blue;
+}
+
+
+@media screen and (max-width:700px) {
+
+    nav,
+    .row {
+        flex-direction: column;
+    }
+}
+
+nav a:hover {
+
+    color: white;
+    background-color: red;
+
+
+}
