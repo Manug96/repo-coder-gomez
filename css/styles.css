@@ -67,3 +67,28 @@ nav a:hover {
 
 
 }
+
+.grid-container {
+
+    display: grid;
+
+
+
+
+
+
+}
+
+.grid-item {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.aside {
+
+    padding: 1%;
+    margin: 1%;
+}
